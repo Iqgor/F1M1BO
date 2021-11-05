@@ -325,13 +325,13 @@ def vraag21():
         print("Dit is geen geldig antwoord!")
         vraag21()
 def vraag22():
-    print("Je kan jezelf laten betalen voor een ticket naar nederland wil je BETALEN of gewoon gaan. ")
+    print("Je kan jezelf laten betalen voor een ticket naar nederland wil je BETALEN of GEWOON gaan. ")
     v22 = input("==>")
     vraag22_0=v22.upper()
     if vraag22_0 == 'BETALEN':
         print("Je wilt jezelf een ticket naar Nederland laten betalen alleen de autoriteiten komen er acher dat het vals geld is dus je word weggezet naar een haven! ")
         vraag5()
-    elif vraag22_0 == 'RUST':
+    elif vraag22_0 == 'GEWOON':
         print("Je gaat gewoon zonder naatedenke en door je gehaast checken de autoriteiten het geld niet en ze denken dat het echt is daardoor kom je veilig aan in:")
         nederland()
     else:
